@@ -1,0 +1,11 @@
+h1{
+    color: rgb(150, 73, 162);
+    font-family: "Colibri", "Comic Sans";
+    font-weight: 700
+}
+
+body{
+    border-width:SMALL;
+    text-align: center;
+    background-image: -webkit-linear-gradient(rgb(156, 172, 253), rgb(227, 138, 255))
+}

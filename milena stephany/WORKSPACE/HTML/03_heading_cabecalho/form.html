@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/estilo2.css" type="text/css">
+    
+    <title>form</title>
+</head>
+
+<body>
+    <h1>EXEMPLO DE FORMULÁRIO</h1>
+    <!-- Criar o fomulario-->
+    <form action="#">
+        <!-- tag para entra de informações-->
+        <label for=""> Nome </label> <br>
+        <!-- Campo nome -->
+        <input type="text" required="required"> <br> <br>
+
+        <label for=""> Idade </label> <br>
+        <!-- Campo idade -->
+        <input type="number"> <br> <br>
+
+        <label for=""> Email </label><br>
+        <!-- Campo Endereço -->
+        <input type="text"><br><br>
+
+        <label for=""> Cidade onde mora: </label> <br>
+        <select>
+            <option> São Paulo </option>
+            <option> Rio de Janeiro </option>
+            <option> Curitiba </option>
+        </select> <br> <br>
+
+
+        <label for="">Gênero </label> <br>
+        <input type="text" list="genero">
+        <datalist id="genero">
+            <option value="Mulher cis"></option>
+            <option value="Homem trans"></option>
+            <option value="Não binario"></option>
+            <option value="Homem trans"></option>
+            <option value="Mulher trans"></option>
+        </datalist> <br> <br>
+
+
+        <label for=""> Descreva seu ultimo emprego </label><br>
+        <textarea placeholder="DIGITE AQUI"> </textarea> <br> <br>
+
+        <label for=""> Cor favorita </label> <br>
+        <input type="radio" name="status" id="Rosa">
+        <label for=" Rosa"> Rosa</label>
+
+        <input type="radio" name="status" id="Azul">
+        <label for=" Azul"> Azul</label>
+
+        <input type="radio" name="status" id="Vermelho">
+        <label for=" Vermelho"> Vermelho</label> <br> <br>
+
+        <label for=""> Quão feliz voce está hoje? </label> <br>
+        <label for=""> Pouco </label>
+        <input type="range">
+        <label for=""> Muito </label> <br>
+
+        <!-- Tag botão para enviar o formulario -->
+        <input type="submit"> <br> <br>
+        <footer>
+            <small>Instituto da Oportunidade Social</small>
+        </footer>
+    </form>
+
+
+</body>
+
+
+
+
+
+</html>
