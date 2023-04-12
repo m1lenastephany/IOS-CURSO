@@ -1,0 +1,6 @@
+Pseudoclasses
+
+https://ios.org.br/ IOS
+https://www.wikipedia.org wikipedia.org
+
+Nota: A pseudoclasse :hover aplica o estilo quando o mouse passa por cima do elemento.

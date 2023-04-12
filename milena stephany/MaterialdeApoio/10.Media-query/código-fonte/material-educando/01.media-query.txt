@@ -1,0 +1,30 @@
+CSS3 site responsivo de tabela de preços
+
+CSS3 site responsivo de tabela de preços
+
+Simples
+R$ 5.99 / ao Mês
+20GB Espaço em Disco
+10GB Transferência de dados
+2 Domínios
+50 Contas de Email
+2 Contas de FTP
+Cadastre-se
+
+Padrão
+R$ 15.99 / ao Mês
+75GB Espaço em Disco
+50GB Transferência de dados
+10 Domínios
+100 Contas de Email
+Ilimitadas Contas de FTP
+Cadastre-se
+
+Super
+R$ 25.99/ ao Mês
+120GB Espaço em Disco
+1000GB Transferência de dados
+Ilimitados Domínios
+Ilimitadas Contas de mail
+Ilimitadas Contas de FTP
+Cadastre-se

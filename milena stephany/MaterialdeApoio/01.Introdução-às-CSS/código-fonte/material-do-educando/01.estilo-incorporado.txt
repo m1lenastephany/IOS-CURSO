@@ -1,0 +1,4 @@
+Estilo incorporado
+
+CSS incorporado
+Exemplo de estilo CSS incorporado no documento HTML.

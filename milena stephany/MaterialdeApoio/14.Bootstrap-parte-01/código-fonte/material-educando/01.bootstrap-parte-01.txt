@@ -1,0 +1,131 @@
+Exemplo Bootstrap
+
+<!-- Menu -->
+
+Bootstrap Navbar
+
+Home
+Sobre
+Outros
+
+Projeto
+Contato
+
+Qualquer coisa
+
+Desabilitado
+
+
+<!-- Header -->
+
+Bem-vindo ao meu Website
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+eligendi vitae atque nesciunt. Ducimus veritatis, praesentium quo delectus ut numquam.
+Aprenda Mais
+
+
+<!-- Tipografia -->
+Hello, world! Secondary text
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, laborum? Placeat non est
+facere recusandae fugiat voluptatum
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, laborum? Placeat non est.
+Delectus consequuntur laudantium repellat dolorum labore tenetur, voluptatem
+necessitatibus rerum eveniet. Esse deserunt ducimus atque iure consequatur at cum reiciendis nihil
+soluta labore perferendis.
+
+
+<!-- Alinhamento & Transformação-->
+Texto alinhado à esquerda da área de visualização.
+Texto alinhado centralizado na área de visualização.
+Texto alinhado à direta da área de visualização.
+exto sem quebra de linha. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+Aliquid perspiciatis sed quia expedita? Id cupiditate dicta magni fugiat nulla voluptatibus ratione
+accusantium!
+
+
+<!-- Floats -->
+Float no início da área de visualização
+Float no final da área de visualização
+Sem float na área de visualização
+<!-- Limpa o Float -->
+
+
+<!-- Blockquuote -->
+A juventude é a época de se estudar a sabedoria; a velhice é a época de a praticar.
+Jean-Jacques Rousseau
+
+
+<!-- Listas -->
+Item um
+Item dois
+Item três
+Item quatro
+
+Item um
+Item dois
+Item três
+Item quatro
+
+Item um
+Item dois
+Item três
+Item quatro
+
+<!-- Código -->
+&lt;h1&gt;Heading Text&lt;/h1&gt;
+Mude de diretório com o comando cd
+Para acessar as configurações de edição, pressione ctrl + ,
+
+
+<!-- Cores textuais -->
+Olá Mundo com a cor do texto: text-primary
+Olá Mundo com a cor do texto: text-success
+Olá Mundo com a cor do texto: text-info
+Olá Mundo com a cor do texto: text-warning
+Olá Mundo com a cor do texto: text-danger
+Olá Mundo com a cor do texto: text-muted
+Olá Mundo com a cor do texto: text-black-50
+
+<!-- Cores de plano de fundo -->
+Olá Mundo com a cor de fundo: bg-primary
+Olá Mundo com a cor de fundo: bg-success
+Olá Mundo com a cor de fundo: bg-info
+Olá Mundo com a cor de fundo: bg-warning
+Olá Mundo com a cor de fundo: bg-danger
+Olá Mundo com a cor de fundo: bg-muted
+
+<!-- Combinação dos estilos -->
+Olá Mundo com a cor do texto: text-white, e a cor do fundo: bg-dark
+Olá Mundo com a cor do texto: text-white-50, e a cor do fundo: bg-success
+
+
+<!-- Botões -->
+Botão Um
+Botão Dois
+
+<!-- Botões Contextuais -->
+Primary
+Secondary
+Success
+Info
+Warning
+Danger
+Dark
+Light
+Link
+
+<!-- Tamanho de Botões -->
+Botão Um
+Primary
+Secondary
+
+<!-- Efeito dos botões -->
+Primary
+Secondary
+Success
+Danger
+Warning
+Info
+Light
+Dark

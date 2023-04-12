@@ -1,0 +1,19 @@
+Flexbox
+
+
+Box um
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint velit minus voluptates dolore voluptatem,
+rerum eum omnis consequuntur iste libero fugit beatae sequi voluptas id deleniti quibusdam eius, ad
+recusandae.
+
+
+Box dois
+ipsum dolor sit amet consectetur adipisicing elit. Sint velit minus voluptates dolore voluptatem,
+rerum eum omnis consequuntur iste libero fugit beatae sequi voluptas id deleniti quibusdam eius, ad
+recusandae.
+
+
+Box três
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint velit minus voluptates dolore voluptatem,
+rerum eum omnis consequuntur iste libero fugit beatae sequi voluptas id deleniti quibusdam eius, ad
+recusandae.

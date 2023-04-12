@@ -1,0 +1,7 @@
+Pseudoelementos
+
+Bem-vindo
+
+Meu nome é Donald.
+Eu moro em Duckburg.
+Meu melhor amigo é o Mickey.

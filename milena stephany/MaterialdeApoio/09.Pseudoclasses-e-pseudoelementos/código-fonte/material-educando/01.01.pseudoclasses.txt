@@ -1,0 +1,9 @@
+Pseudoclasses
+
+Primeiro elemento &lt;p&gt; filho do elemento &lt;section&gt;.
+
+Parágrafo qualquer.
+
+Primeiro elemento &lt;p&gt; filho do elemento &lt;footer&gt;.
+
+Parágrafo qualquer.

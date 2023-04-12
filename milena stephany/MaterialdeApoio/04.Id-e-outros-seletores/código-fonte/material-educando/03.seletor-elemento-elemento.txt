@@ -1,0 +1,13 @@
+Design Acme
+
+Empresa de Design Acme
+
+Parágrafo dentro do &lt;header&gt;
+
+Exemplo de parágrafo dentro do &lt;article&gt;
+
+H2 dentro do article
+
+Outro parágrafo dentro do &lt;article&gt;
+
+Exemplo de parágrafo dentro do &lt;footer&gt;

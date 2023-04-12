@@ -1,0 +1,9 @@
+Página simples em HTML
+
+Exemplo de estilo incorporado
+
+Autor: Rafael Lopes dos Santos
+
+Vamos mostrar exemplo de estilo incorporado no documento HTML.
+
+Copyright&copy; - Todos os direitos reservados.

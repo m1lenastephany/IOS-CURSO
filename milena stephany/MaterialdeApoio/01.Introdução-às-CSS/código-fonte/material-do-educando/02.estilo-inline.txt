@@ -1,0 +1,6 @@
+Estilo incorporado e inline
+
+CSS incorporado
+Exemplo de estilo CSS incorporado no documento HTML.
+
+Exemplo de estilo inline

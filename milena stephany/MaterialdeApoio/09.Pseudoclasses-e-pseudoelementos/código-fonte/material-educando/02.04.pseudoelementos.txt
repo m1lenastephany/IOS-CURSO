@@ -1,0 +1,5 @@
+Pseudoelementos
+
+Selecione com o mouse parte do texto:
+Esse é um parágrafo.
+Esse é um texto do elemento div.
