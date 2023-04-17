@@ -1,21 +1,25 @@
 body {
   color: #000000;
-  text-align:center;
-  background-image: url(../HTML/imagens/paisagem.jpg);
-  background-repeat: no-repeat;
+  background-image: url(../HTML/imagens/blue.jpg);
+  background-repeat:repeat;
   background-position: center;
   background-size: cover;
+
 }
-ul {
+header{
   text-align: center;
+  border: 2px solid #000000;
+  background-color:#8bf4fb
 }
+
+
 img {
-  width: 320px;
+  width: 420px;
   height: 240px;
 }
 figure {
   text-align: center;
-  width: 320px;
+  width: 420px;
   padding: 5px;
   border: 2px solid #000000;
 }

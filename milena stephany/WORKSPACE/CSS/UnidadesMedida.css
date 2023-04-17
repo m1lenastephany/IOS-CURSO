@@ -1,0 +1,19 @@
+header{
+    text-align:center ;
+   
+}
+main{
+    text-align:center;
+    font-size: 1rem;
+}
+.botao{font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #f4cfc7;
+    color: rgba(100, 95, 95, 0.133);
+    border: #151515 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
