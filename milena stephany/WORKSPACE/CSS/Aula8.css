@@ -1,6 +1,10 @@
+main{
+    padding: 0px;
+    margin: 0px;
+}
 img{
-    width: 300px;
-    height: 190px;
+    width: 150px;
+    height: 90px;
 }
 body{
     width: 80%;
@@ -13,3 +17,9 @@ body{
     border: 2px solid #000;
     height: 400px;
 }
+.Anne{
+        float: left;
+    }
+    .Martin{
+        float: right;
+    }
