@@ -1,0 +1,30 @@
+@charset "utf-8";
+.container {
+  display: flex;
+  align-items:center;
+}
+.container div {
+  padding: 15px;
+}
+.item-box-1 {
+  border: 5px #040b65 solid;
+  flex: 1;
+  order: 2;
+  align-self: flex-end;
+}
+.item-box-2 {
+  border: 5px #eaff00 solid;
+  flex: 1;
+  order: 1;
+}
+.item-box-3 {
+  border: 5px #ff0000 solid;
+  flex: 2;
+  order: 3;
+}
+.item-box-4 {
+  border: 5px #ff00ee solid;
+  flex: 1;
+  order: 4;
+
+}

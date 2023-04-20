@@ -23,9 +23,15 @@ body{
     .Martin{
         float: right;
     }
-    @media(max-width:414px) {
+    @media(min-width:414px) {
        .pai{
         width: auto;
         height: auto;
+        (min-width:414px) {
+            .pai{
+             width: auto;
+             height: auto;
+            }
+            }
        }
-       }
+    }
