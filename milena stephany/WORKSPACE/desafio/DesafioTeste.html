@@ -3,34 +3,232 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="..//desafio/desafioTeste.css">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation:wght@600&family=Farsan&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="..//desafio/style.css">
+    <title>Desafio HTML e CSS</title>
 </head>
 
 <body>
-    <section class="container">
-        <div>
-            <div class="lado1">
-                <figure>
-                    <img class="codeimg" src="..//desafio/IMAGENS/code.jpg" alt=>
-                </figure>
-            </div>
 
-            <div class="lado2">
-                <h1> QUER FAZER PARTE DA NOSSA EQUIPE?</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum recusandae perspiciatis eaque laboriosam
-                    tempore ut, ab sequi voluptatum fugit deleniti assumenda aliquid quibusdam sapiente, fugiat autem?
-                    Cum deleniti odio neque.
+    <header>
+        <figure>
+            <img src="Imagens/Logo1Transparente.png" alt="Logo MsW">
+        </figure>
+
+
+    </header>
+    <main>
+        <section class="font">
+            <h1>Faça parte da equipe MSW</h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, alias! At quas optio, eligendi, quos,
+                provident perspiciatis soluta molestiae voluptatibus est error possimus animi sed saepe ipsum beatae
+                dolore asperiores.</p>
+        </section>
+        <form action="#" method="post" class="login">
+            <h2>Formulário de Inscrição</h2>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <p>
+                    <label for="inome">Nome:</label>
+                    <input type="text" name="nome" id="inome" autocomplete="off" required>
                 </p>
-                <form>
-                    <input type="button" value="Iniciar Inscrição">
-                </form>
-            </div>
-        </div>
 
+                <p>
+                    <label for="iultimosobrenome">Ultimo Sobrenome:</label>
+                    <input type="text" name="ultimosobrenome" id="iultimosobrenome" autocomplete="off">
+                </p>
 
-    </section>
+                <p>
+                    <label for="inascimento">Data de Nascimento:</label>
+                    <input type="date" name="nascimento" id="inascimento" autocomplete="off">
+                </p>
 
+                <p>
+                    <label for="isexo">Sexo:</label>
+
+                    <input type="radio" name="sexo" id="masc">
+                    <label for="masc">Masculino</label>
+
+                    <input type="radio" name="sexo" id="fem">
+                    <label for="fem">Feminino</label>
+                </p>
+
+                <p>
+                    <label for="icivil">Estado Civil:</label>
+
+                    <input type="radio" name="civil" id="casado">
+                    <label for="casado">Casado&#40;a&#41;</label>
+
+                    <input type="radio" name="civil" id="solteiro">
+                    <label for="solteiro">Solteiro&#40;a&#41;</label>
+
+                    <input type="radio" name="civil" id="viuvo">
+                    <label for="viuvo">Viúvo&#40;a&#41;</label>
+                </p>
+
+                <p>
+                    <label for="itelefone">Telefone Celular:</label>
+                    <input type="tel" name="telefone" id="itelefone" required placeholder="(00) 00000-0000"
+                        autocomplete="tel">
+                </p>
+
+                <p>
+                    <label for="iemail">Email:</label>
+                    <input type="email" name="email" id="iemail" required placeholder="exemplo@exemplo.com"
+                        autocomplete="email" required>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Endereço</legend>
+                <p>
+                    <label for="iendereco">Endereço:</label>
+                    <input type="text" name="endereco" id="iendereco" placeholder="Rua">
+                </p>
+
+                <p>
+                    <label for="icidade">Cidade:</label>
+                    <input type="text" name="cidade" id="icidade" placeholder="">
+                </p>
+
+                <p>
+                    <label for="iestadp">Estado:</label>
+                    <input type="text" name="estado" id="iestado">
+                </p>
+
+                <p>
+                    <label for="icep">CEP:</label>
+                    <input type="number" name="cep" id="icep" min="0" maxlength="8"
+                        placeholder="00000-000 &#40;Números Apenas&#41;">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Experiência acadêmica</legend>
+                <p>
+                    <label for="iescolaridade">Escolaridade:</label>
+
+                    <input type="radio" name="escolaridade" id="fundamental">
+                    <label for="fundamental">Ensino fundamental</label>
+
+                    <input type="radio" name="escolaridade" id="medio">
+                    <label for="medio">Ensino médio</label>
+
+                    <input type="radio" name="escolaridade" id="superiorinc">
+                    <label for="superiorinc">Superior incompleto</label>
+
+                    <input type="radio" name="escolaridade" id="superior">
+                    <label for="superior">Superior completo</label>
+                </p>
+
+                <p>
+                    <label for="iintituicao">Nome da instituição de ensino:</label>
+                    <input type="text" name="instituicao" id="iinstituicao">
+
+                    <label for="itermino">Ano de término ou estimativa:</label>
+                    <input type="number" name="termino" id="itermino" min="0" maxlength="4" placeholder="1910">
+                </p>
+
+                <p>
+                    <label for="iintituicao">Ultimo curso complementar realizado:</label>
+                    <input type="checkbox" name="instituicao" id="iinstituicao">
+
+                    <label for="itermino">Ano de término ou estimativa:</label>
+                    <input type="number" name="termino" id="itermino" min="0" maxlength="4" placeholder="1910">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Vaga de interesse</legend>
+                <p>
+                    <label for="icargo">Cargo</label>
+                    <select name="cargo" id="icargo" required>
+                        <option value="1">Desenvolvedor Front-end</option>
+
+                        <option value="2">Desenvolvedor Back-end</option>
+
+                        <option value="3">Desenvolvedor Full-stack</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="vaga">Como soube da vaga?</label>
+
+                    <input type="checkbox" name="vaga" id="svaga">
+                    <label for="svaga">Amigo&#40;a&#41;</label>
+
+                    <input type="checkbox" name="vaga" id="svaga2">
+                    <label for="svaga2">Anúncio da Internet</label>
+
+                    <input type="checkbox" name="vaga" id="svaga3">
+                    <label for="svaga3">Linkedin</label>
+                </p>
+
+                <p>
+                    <label for="igit">Link GitHub:</label>
+                    <input type="url" name="git" id="igit" placeholder="https://github.com/Exemplo" required>
+                </p>
+
+                <p>
+                    <label for="ilink">Endereço Url Linkedin:</label>
+                    <input type="url" name="link" id="ilink" placeholder="https://br.linkedin.com/Exemplo" required>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Experiência profissional</legend>
+                <p>
+                    <label for="itrabalho">Está trabalhando?</label>
+
+                    <input type="radio" name="trabalho" id="sim">
+                    <label for="sim">Sim</label>
+
+                    <input type="radio" name="trabalho" id="nao">
+                    <label for="nao">Não</label>
+                </p>
+
+                <p>
+                    <label for="iexp">Ultima ocupação:</label>
+                    <input type="text" name="exp" id="iexp" placeholder="EX: Estagiário de BackEnd" required>
+                </p>
+
+                <p>
+                    <label for="iano">Ano:</label>
+                    <input type="number" name="termino" id="itermino" min="0" maxlength="4" placeholder="1920" required>
+                </p>
+
+                <p>
+                    <label for="iexpd">Comente sobre sua experiência no cargo:</label>
+                    <br>
+                    <textarea name="" id="iexpd" cols="80" rows="10" required>Descreva sua experiência</textarea>
+                </p>
+
+                <p>
+                    <label for="icurriculo">Envie seu Currículo:</label>
+                    <input type="file" name="curriculo" id="icurriculo">
+                </p>
+            </fieldset>
+
+            <p>
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <p>Company MsW &copy;2023</p>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    grid-template-areas: "filho1 filho1 filho2 filho2" "filho3 filho3 filho4 filho4 ";
+    row-gap: 1px;
+    column-gap:1px ;
+
+}
+
+.item1{
+    border: 1px solid #000;
+    background-color: aqua;
+    grid-area: filho1;
+    width: 50px;
+    height: 50px;
+}
+
+.item2{
+    border: 1px solid #000;
+    background-color: rgb(229, 147, 254);
+    grid-area: filho2;
+    width: 50px;
+    height: 50px;
+}
+.item3{
+    border: 1px solid #000;
+    background-color: rgb(191, 0, 255);
+    grid-area: filho3;
+    width: 50px;
+    height: 50px;
+}
+.item4{
+    border: 1px solid #000;
+    background-color: rgb(72, 255, 0);
+    grid-area: filho4;
+    width: 50px;
+    height: 50px;
+}
