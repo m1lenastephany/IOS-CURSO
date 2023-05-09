@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 100px 100px;
     grid-template-rows: 100px 100px;
-    grid-template-areas: "filho1 filho1 filho2 filho2" "filho3 filho3 filho4 filho4 ";
+    grid-template-areas: "item1 item1 item2 item2" "item3 item3 item3 item3 " "filho4 filho4 filho4 filho4 ";
     row-gap: 1px;
     column-gap:1px ;
 
@@ -36,6 +36,35 @@
     border: 1px solid #000;
     background-color: rgb(72, 255, 0);
     grid-area: filho4;
+    width: 50px;
+    height: 50px;
+}
+.item5{
+    border: 1px solid #000;
+    background-color: aqua;
+    grid-area: filho5;
+    width: 50px;
+    height: 50px;
+}
+
+.item6{
+    border: 1px solid #000;
+    background-color: rgb(229, 147, 254);
+    grid-area: filho6;
+    width: 50px;
+    height: 50px;
+}
+.item7{
+    border: 1px solid #000;
+    background-color: rgb(191, 0, 255);
+    grid-area: filho7;
+    width: 50px;
+    height: 50px;
+}
+.item8{
+    border: 1px solid #000;
+    background-color: rgb(72, 255, 0);
+    grid-area: filho8;
     width: 50px;
     height: 50px;
 }
