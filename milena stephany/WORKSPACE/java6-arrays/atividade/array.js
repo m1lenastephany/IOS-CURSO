@@ -4,7 +4,7 @@ console.log(ArrayUni)
 console.log(ArrayUni.length)
 console.log(ArrayUni[6]);
 console.log(ArrayUni.toString())
-console.log(ArrayUni)
+console.log(typeof ArrayUni)
 var ArrayUni2 = ArrayUni.join("/")
 console.log(ArrayUni2)
 console.log(ArrayUni)
