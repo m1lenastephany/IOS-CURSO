@@ -13,7 +13,7 @@
 .item1{
     border: 1px solid #000;
     background-color: aqua;
-    grid-area: filho1;
+    grid-area: 1;
     width: 50px;
     height: 50px;
 }
@@ -21,28 +21,28 @@
 .item2{
     border: 1px solid #000;
     background-color: rgb(229, 147, 254);
-    grid-area: filho2;
+    grid-area: 2;
     width: 50px;
     height: 50px;
 }
 .item3{
     border: 1px solid #000;
     background-color: rgb(191, 0, 255);
-    grid-area: filho3;
+    grid-area: 3;
     width: 50px;
     height: 50px;
 }
 .item4{
     border: 1px solid #000;
     background-color: rgb(72, 255, 0);
-    grid-area: filho4;
+    grid-area: 4;
     width: 50px;
     height: 50px;
 }
 .item5{
     border: 1px solid #000;
     background-color: aqua;
-    grid-area: filho5;
+    grid-area: 5;
     width: 50px;
     height: 50px;
 }
@@ -50,21 +50,28 @@
 .item6{
     border: 1px solid #000;
     background-color: rgb(229, 147, 254);
-    grid-area: filho6;
+    grid-area: 6;
     width: 50px;
     height: 50px;
 }
 .item7{
     border: 1px solid #000;
     background-color: rgb(191, 0, 255);
-    grid-area: filho7;
+    grid-area: 7;
     width: 50px;
     height: 50px;
 }
 .item8{
     border: 1px solid #000;
     background-color: rgb(72, 255, 0);
-    grid-area: filho8;
+    grid-area: 8;
+    width: 50px;
+    height: 50px;
+}
+.item9{
+    border: 1px solid #000;
+    background-color: rgb(72, 255, 0);
+    grid-area: 9;
     width: 50px;
     height: 50px;
 }

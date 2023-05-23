@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+body {
+    font-family: "Tahoma", sans-serif;
+    background: #000000;
+    color: #fff;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+
+    height: 40;
+    align-items: rigth;
+}
+
+.titulo {
+    position: relative;
+   text-align: center;
+   font-size: larger;
+}
+
+.conteudo {
+    font-size: large;
+}
+
+.video-bg {
+    background: linear-gradient();
+}
+
+.tab {
+    width: 20%;
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: relative;
+
+}
+
+.price-box {
+    background: #070707;
+    color: #fffefe;
+    list-style-type: none;
+    border: 1px solid #fdfdfd55;
+    border-radius: 20px
+}
+
+.price-box .plano {
+    background-color: #ffffff;
+    color: #302e2e;
+    font-size: 25px;
+    border-radius: 20px;
+
+}
+
+.price-box .plano.header-green {
+    background: #efcc03;
+    border-radius: 20px;
+
+}
+
+.price-box li {
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+li.menor {
+    font-size: 20px;
+}
+.exclusivo{
+    font: size 100px;
+}
+
+.btn {
+    background-color: #efcc03;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+}
+
+@media(max-width:768px) {
+    .col {
+        width: 100%;
+    }
+}

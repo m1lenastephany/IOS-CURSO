@@ -1,0 +1,73 @@
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      padding: 10px;
+      background-color: lightgray;
+      border: 1px solid gray;
+      margin-bottom: 10px;
+    }
+
+    /* Pseudoclasses */
+    li:first-child {
+      background-color: lightblue;
+    }
+
+    li:nth-child(odd) {
+      background-color: lightgreen;
+    }
+
+    li:hover {
+      background-color: yellow;
+    }
+
+    li:active {
+      background-color: orange;
+    }
+
+    li:last-child {
+      background-color: pink;
+    }
+
+    /* Pseudoelements */
+    li::before {
+      content: "Item: ";
+      font-weight: bold;
+    }
+
+    li::after {
+      content: "!";
+      font-weight: bold;
+    }
+
+    /* Alinhamento com float */
+    .left {
+      float: left;
+      width: 50%;
+    }
+
+    .right {
+      float: right;
+      width: 50%;
+    }
+
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+  
