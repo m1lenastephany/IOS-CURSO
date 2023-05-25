@@ -6,13 +6,25 @@ body {
     color: #fff;
 
 }
-
-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.primeiraParte{
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    
 }
 
+.botao{ 
+    justify-content:right;
+    background-color: #FFBD4A;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
 .logo {
     height: 130px;
     align-items: left;
@@ -20,45 +32,58 @@ section {
 
 .menu {
     height: 130px;
-
+}
+header{
+    background-color: #050505;
+    display: flex;
 }
 
-.titulo {
-    position: relative;
-    text-align: center;
-    font-size: 60px;
-}
 
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .conteudo {
     font-size: 20px;
-   
 }
 
 .dispositivos{
-    background: linear-gradient(#FFBD4A,#000000)
+    background: linear-gradient(#FFBD4A,#000000);
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
 }
+
 .dTitulo {
     text-align: center;
     font-size: 40px;
 }
-
-.article {
+article{
     display: flex;
-    vertical-align: baseline;
-    width: 3px;
+    gap: 10px;
+}
+article img {
+    width: 400px;
+    height: 400px;
+    
 }
 
-.video-bg {
-    width: 100;
-    height: 120px;
+.video-bg video {
+    width: 100%;
+    height: 1100px;
+   
 }
+
+
 
 .tab {
     width: 20%;
     padding: 8px;
     box-sizing: border-box;
     text-align: relative;
+   
 }
 
 .price-box {
@@ -94,21 +119,37 @@ li.menor {
 }
 
 .exclusiva {
-    font-size: 20px;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
     background-color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
 }
 
 .exclusiva > img {
-    width: 50%;
+    width: 60%;
     height: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: end;
-    
 }
 
+
+.raio{
+    width: 90px;
+    height: 90px;
+}
+.campeonato {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+.campeonato >img{
+    width: 60%;
+    height: 80%;
+}
 .btn {
     background-color: #FFBD4A;
     border: none;
@@ -121,6 +162,8 @@ li.menor {
 }
 
 footer {
+    background-color: #6d685f;
+    padding: auto;
     text-align: center;
 }
 
