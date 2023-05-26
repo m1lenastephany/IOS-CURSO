@@ -13,8 +13,6 @@ var notaMinimaa = 7
 if (notaMarco >= notaMinimaa) {
     console.log("aprovado")}
 
-
-
 //impar ou par 
 // se a sobra da divisão do número for
 // 1 esse numero é impar
