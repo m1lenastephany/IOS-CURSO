@@ -1,19 +1,21 @@
-header{
+header {
     background-color: #000000;
-    
 }
-header > img{
+
+header>img {
     height: 130px;
     align-items: left;
 }
-main{
+
+main {
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 
-.conteudo{
+.conteudo {
     font-size: large;
 }
+
 form {
     width: 300px;
     height: 700px;
@@ -31,7 +33,7 @@ form {
 }
 
 
-footer{
+footer {
     display: flex;
     justify-content: center;
 }
