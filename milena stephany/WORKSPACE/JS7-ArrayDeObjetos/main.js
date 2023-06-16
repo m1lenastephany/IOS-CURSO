@@ -1,0 +1,6 @@
+var aluno1 = ['ANA','17','8','2B']
+var aluno2 = ['BRUNO','16','6','2C']
+var aluno3 = ['VERONICA','16','9','2C']
+var aluno4 = ['MARTA','19','6','3C']
+var aluno5 = ['BRENNO','19','6','3C']
+var aluno6 = ['MARIA','14','4','1F']

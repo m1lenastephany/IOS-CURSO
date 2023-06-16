@@ -1,39 +1,106 @@
-header {
-    background-color: #000000;
+@charset "utf-8";
+body {
+    font-family: "Tahoma", sans-serif;
+    background: #ffffff;
+    color: #000000;
+    padding: 0;
+}
+header{
+    background-color: #003274;
+    overflow: hidden;
+}
+.botao {
+    float:right;
+    background-color: #fefefd;
+    border: none;
+    color: #040404;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+    float: right;
+    padding: 10px 20px;
+    text-decoration: none;
+
+}
+.logo {
+    float: left;
+    height: 99px;
+    width: 240px;
 }
 
-header>img {
-    height: 130px;
-    align-items: left;
-}
-
-main {
+.conteudo{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.conteudo {
+.formulario {
+    display:flex;
     font-size: large;
+    justify-content: center;
 }
 
 form {
-    width: 300px;
-    height: 700px;
-    text-align: center;
-    width: 810px;
-    padding: 1%;
-    background: #181818;
-    box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
-    opacity: 0.9;
-    color: #FFBD4A;
-    font-size: larger;
-    font-family: "Tahoma", sans-serif;
-}
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
 
+  input[type="text"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
 
 footer {
+
+    background-color: #060606;
+    padding: 50px 0;
+    text-align: center;
+    text-decoration: none;
+    color: #fefefd;
+}
+
+li {
     display: flex;
-    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.redes {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+    color: #fff;
+}
+
+img {
+    width: 35px;
+    height: 35px;
 }

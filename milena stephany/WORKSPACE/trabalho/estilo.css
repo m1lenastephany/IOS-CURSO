@@ -2,40 +2,42 @@
 
 body {
     font-family: "Tahoma", sans-serif;
-    background: #000000;
-    color: #fff;
+    background: #ffffff;
+    color: #000000;
+    padding: 0;
 }
-.primeiraParte{
+
+.primeiraParte {
     position: relative;
     text-align: center;
     font-size: 60px;
 }
 
-.botao{ 
-    justify-content:right;
-    background-color: #FFBD4A;
+.botao {
+    float: right;
+    background-color: #fefefd;
     border: none;
-    color: #fff;
-    padding: 10px 15px;
+    color: #040404;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
     border-radius: 10px;
-    
+    float: right;
+    padding: 10px 20px;
+    text-decoration: none;
+
 }
+
+header {
+    background-color: #003274;
+    overflow: hidden;
+}
+
 .logo {
-    height: 130px;
-    align-items: left;
-}
+    float: left;
+    height: 99px;
+    width: 240px;
 
-.menu {
-    height: 130px;
-
-}
-header{
-    background-color: #050505;
-    display: flex;
-    
 }
 
 section {
@@ -48,25 +50,27 @@ section {
     font-size: 20px;
 }
 
-.dispositivos{
-    background: radial-gradient(#FFBD4A,#000000);
-    padding:10px;
+.dispositivos {
+    background: #fff;
+    padding: 10px;
     font-size: 20px;
     text-align: center;
 }
 
 .dTitulo {
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
 }
-article{
+
+article {
     display: flex;
     gap: 100px;
 }
+
 article img {
-    width: 300px;
-    height: 300px;
-    
+    width: 250px;
+    height: 250px;
+
 }
 
 .video-bg video {
@@ -74,37 +78,33 @@ article img {
     height: 1100px;
 }
 
-
-
 .tab {
     width: 20%;
     padding: 8px;
     box-sizing: border-box;
     text-align: relative;
-    
-   
+
+
 }
 
 .price-box {
     background: #070707;
     color: #fffefe;
     list-style-type: none;
-    
+
     border-radius: 20px
 }
 
 .price-box .plano {
     background-color: #ffffff;
     color: #302e2e;
-    font-size: 25px;
+    font-size: 35px;
     border-radius: 20px;
-
 }
 
 .price-box .plano.header-green {
-    background: #FFBD4A;
+    background: #003274;
     border-radius: 20px;
-
 }
 
 .price-box li {
@@ -121,34 +121,56 @@ li.menor {
     display: flex;
     align-items: center;
     font-size: 30px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     text-align: center;
 }
 
-.exclusiva > img {
+.exclusiva>img {
     width: 60%;
     height: 80%;
 }
-.raio{
+
+.raio {
     width: 90px;
     height: 90px;
 }
+
 .campeonato {
     display: flex;
     align-items: center;
     font-size: 30px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     text-align: center;
 }
 
-.campeonato >img{
+.campeonato>img {
     width: 60%;
     height: 80%;
 }
+
+.assinatura {
+    display: flex;
+    gap: 100px;
+    padding: 50px;
+}
+
+.botton {
+    display: flex;
+    gap: 100px;
+    background-color: #050403;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 50px;
+    border-radius: 10px;
+}
+
 .btn {
-    background-color: #FFBD4A;
+    background-color: #003274;
     border: none;
     color: #fff;
     padding: 10px 15px;
@@ -158,16 +180,37 @@ li.menor {
     border-radius: 10px;
 }
 
+
 footer {
-    background:#FFBD4A;
-    padding: 2px;
+
+    background-color: #060606;
+    padding: 50px 0;
     text-align: center;
+    text-decoration: none;
+    color: #fefefd;
 }
 
-footer > img{
+li {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.redes {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+    color: #fff;
+}
+
+img {
     width: 35px;
     height: 35px;
 }
+
 @media(max-width:768px) {
     .col {
         width: 100%;
