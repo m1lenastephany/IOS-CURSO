@@ -13,38 +13,12 @@ body {
     font-size: 60px;
 }
 
-.botao {
-    float: right;
-    background-color: #fefefd;
-    border: none;
-    color: #040404;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 10px;
-    float: right;
-    padding: 10px 20px;
-    text-decoration: none;
-
-}
-
-
-.logo {
-    float: left;
-    height: 99px;
-    width: 240px;
-
-}
-
 section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.conteudo {
-    font-size: 20px;
-}
 
 .dispositivos {
     background: #fff;
@@ -84,22 +58,22 @@ article img {
 }
 
 .price-box {
-    background: #070707;
+    background: #272727;
     color: #fffefe;
     list-style-type: none;
 
-    border-radius: 20px
+    border-radius: 40px
 }
 
 .price-box .plano {
-    background-color: #ffffff;
-    color: #302e2e;
+    background-color: #003274;
+    color: #eee5e5;
     font-size: 35px;
     border-radius: 20px;
 }
 
 .price-box .plano.header-green {
-    background: #003274;
+    background: #181818;
     border-radius: 20px;
 }
 
@@ -155,7 +129,7 @@ li.menor {
 .botton {
     display: flex;
     gap: 100px;
-    background-color: #050403;
+    background-color: #003274;
     border: none;
     color: #fff;
     padding: 10px 15px;

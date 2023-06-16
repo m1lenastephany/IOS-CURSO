@@ -4,36 +4,56 @@
 <head>
   <title>Assinatura de Streaming</title>
   <link rel="stylesheet" href=".//assinatura.css">
+  <link rel="stylesheet" href=".//footer.css">
+  <link rel="stylesheet" href=".//header.css">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <div class="container">
-        <img class="logo" src="./logo.png" alt="">
-        <a href="#" class="botao">LOGIN</a>
-      </div>
-    </nav>
-  </header>
-  <section class="conteudo">
-    <div>
-        <table>
-            <tr>
-                <td> <strong> Notícias de esportes do Brasil e do mundo </strong> </td>
+  <!-- Navbar -->
+  <header class="header">
+    <div class="container">
+        <div class="header-main">
+            <div class="logo">
+                <a href="#"><img src=".//imagensEvideos/logo.png" alt=""></a>
+            </div>
+            <div class="open-nav-menu">
+                <span></span>
+            </div>
+            <div class="menu-overlay">
+            </div>
+            <!-- navigation menu start -->
+            <nav class="nav-menu">
+                <div class="close-nav-menu">
+                    <img src="./assets/imgs/header/close.png" alt="close">
+                </div>
+                <ul class="menu">
 
-                <td> <strong> Matérias exclusivas dos nossos colunistas </strong> </td>
-            </tr>
-            <tr>
-                <td> <strong> 5 canais de esportes </strong> </td>
-                <td> <strong> Cobertura de futebol com jogos, tabelas e análises </strong> </td>
-            </tr>
-            <tr>
-                <td> <strong> Acesso ao grupo do whatsapp </strong> </td>
-                <td> <strong> Descontos na compra de ingresso para jogos de futebol e basquete </strong> </td>
-            </tr>
-        </table>
+                    <li class="menu-item menu-item-has-children">
+                        <a href="index.html" data-toggle="sub-menu">Home</a>
+                    </li>
+                    <li class="menu-item menu-item-has-children">
+                        <a href="#" data-toggle="sub-menu">Noticias <i class="plus"></i></a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="pagFutebolMasc.html">Futebol</a>
+                            </li>
+                            <li class="menu-item"><a href="#">Basquete</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="sobre.html">Sobre nós</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Login</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- navigation menu end -->
         </div>
-</section>
+    </div>
+</header>
+
+
   <div class="formulario">
     <div>
       <h1>SEU TIME, DO SEU LADO. SEMPRE.</h1>
@@ -63,26 +83,73 @@
       </form>
     </div>
   </div>
-    <footer>
-      <div>
-        <ul class="box">
-          <li>Empresa</li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Contate-nos</a></li>
-          <li><a href="#">Sobre nós</a></li>
-        </ul>
-        <ul class="box">
-          <li>Privacidade</li>
-          <li><a href="#">Termos de uso</a></li>
-        </ul>
-      </div>
-      <div class="redes">
-        <img src="./imagensEvideos/insta.png" alt="">
-        <img src="./imagensEvideos/twitter.png" alt="">
-        <p> 2023 | Todos os direitos reservados | WORLD SPORTS</p>
-      </div>
+  <footer>
+    <div class="content">
+        <div class="top">
+            <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="link-boxes">
+            <ul class="box">
+                <li class="link_name">Empresa</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contate-nos</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Sedes</a></li>
+            </ul>
+            <ul class="box">
+                <li class="link_name">Serviços</li>
+                <li><a href="#">Streaming</a></li>
+                <li><a href="#">Loja oficial</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#">Camisas<br>personalizadas</a></li>
+            </ul>
+            <ul class="box">
+                <li class="link_name">Conta</li>
+                <li><a href="#">Perfil</a></li>
+                <li><a href="#">Recomend.</a></li>
+                <li><a href="#">Preferências</a></li>
+                <li><a href="#">Histórico</a></li>
+            </ul>
+            <ul class="box">
+                <li class="link_name">Fundadores</li>
+                <li><a href="#">M. Stephany</a></li>
+                <li><a href="#">L. Felipe</a></li>
+                <li><a href="#">M. Tavares</a></li>
+                <li><a href="#">V. Mantovani</a></li>
+            </ul>
+        </div>
+        <div class="apps">
+            <ul class="baixem">
+                <p>Baixem nosso app:<br></p><img src="/img/34-349265_app-store-google-play-svg.png" alt="">
+            </ul>
 
-    </footer>
+            <ul class="box input-box">
+                <li class="link_name">Mande uma<br>mensagem</li><textarea
+                    placeholder="Digite aqui seu elogio ou reclamação" name="" id="" cols="30" rows="10"></textarea>
+                </li>
+                <li><input type="button" value="Enviar"></li>
+            </ul>
+
+        </div>
+    </div>
+    </div>
+    <div class="bottom-details">
+        <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2023 World Sports. Todos os direitos
+                reservados</span>
+            <span class="policy_terms">
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos e condições</a>
+            </span>
+        </div>
+    </div>
+</footer>
 
 
 </body>

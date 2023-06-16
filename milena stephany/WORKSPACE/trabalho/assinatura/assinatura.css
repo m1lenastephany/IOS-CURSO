@@ -5,29 +5,6 @@ body {
     color: #000000;
     padding: 0;
 }
-header{
-    background-color: #003274;
-    overflow: hidden;
-}
-.botao {
-    float:right;
-    background-color: #fefefd;
-    border: none;
-    color: #040404;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 10px;
-    float: right;
-    padding: 10px 20px;
-    text-decoration: none;
-
-}
-.logo {
-    float: left;
-    height: 99px;
-    width: 240px;
-}
 
 .conteudo{
     display: flex;
@@ -75,32 +52,3 @@ form {
     cursor: pointer;
   }
 
-footer {
-
-    background-color: #060606;
-    padding: 50px 0;
-    text-align: center;
-    text-decoration: none;
-    color: #fefefd;
-}
-
-li {
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-}
-
-.redes {
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-p {
-    margin: 0;
-    color: #fff;
-}
-
-img {
-    width: 35px;
-    height: 35px;
-}
