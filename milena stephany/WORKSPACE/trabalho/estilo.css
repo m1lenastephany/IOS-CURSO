@@ -28,10 +28,6 @@ body {
 
 }
 
-header {
-    background-color: #003274;
-    overflow: hidden;
-}
 
 .logo {
     float: left;
@@ -180,36 +176,6 @@ li.menor {
     border-radius: 10px;
 }
 
-
-footer {
-
-    background-color: #060606;
-    padding: 50px 0;
-    text-align: center;
-    text-decoration: none;
-    color: #fefefd;
-}
-
-li {
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-}
-
-.redes {
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-p {
-    margin: 0;
-    color: #fff;
-}
-
-img {
-    width: 35px;
-    height: 35px;
-}
 
 @media(max-width:768px) {
     .col {

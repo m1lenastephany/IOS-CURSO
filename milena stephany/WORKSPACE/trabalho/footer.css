@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+footer{
+  background: #262626;
+  width: 100%;
+}
+footer .content{
+  max-width: 1250px;
+  margin: auto;
+  padding: 0px 40px 50px 40px;
+}
+footer .content .top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+footer .content .top .media-icons{
+  display: flex;
+  padding-top: 20px;
+}
+footer .content .top .media-icons a{
+  width: 40px;
+  margin: 0 8px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+footer .top .media-icons a:nth-child(1){
+  background: #4267B2;
+}
+footer .top .media-icons a:nth-child(1):hover{
+  color: #4267B2;
+  background: #fff;
+}
+footer .top .media-icons a:nth-child(2){
+  background: #1DA1F2;
+}
+footer .top .media-icons a:nth-child(2):hover{
+  color: #1DA1F2;
+  background: #fff;
+}
+footer .top .media-icons a:nth-child(3){
+  background: #E1306C;
+}
+footer .top .media-icons a:nth-child(3):hover{
+  color: #E1306C;
+  background: #fff;
+}
+footer .top .media-icons a:nth-child(4){
+  background: #0077B5;
+}
+footer .top .media-icons a:nth-child(4):hover{
+  color: #0077B5;
+  background: #fff;
+}
+footer .top .media-icons a:nth-child(5){
+  background: #FF0000;
+}
+footer .top .media-icons a:nth-child(5):hover{
+  color: #FF0000;
+  background: #fff;
+}
+footer .content .link-boxes{
+  display: flex;
+  justify-content: space-between;
+}
+footer .content .link-boxes .box{
+  width: calc(100% / 5 - 10px);
+}
+footer .content .link-boxes .box .link_name{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  position: relative;
+}
+footer .content .apps .box .link_name{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 0;
+  position: relative;
+}
+
+footer .link-boxes .box .link_name::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 35px;
+  background: #fff;
+}
+footer .apps .box .link_name::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 35px;
+  background: #fff;
+}
+footer .content .link-boxes .box li{
+  margin: 6px 0;
+  list-style: none;
+}
+footer .content .apps .box li{
+  margin: 6px 0;
+  list-style: none;
+}
+footer .content .link-boxes .box li a{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.4s ease;
+}
+footer .content .link-boxes .box li a:hover{
+  border-bottom: #fff solid 5px;
+}
+footer .content .apps .input-box{
+  margin-right: 54px;
+}
+footer .apps .input-box input{
+  height: 40px;
+  width: calc(100% + 55px);
+  border-radius: 4px;
+}
+footer .apps .input-box input::placeholder{
+  color: #AFAFB6;
+  font-size: 16px;
+}
+footer .apps .input-box input[type="button"]{
+  color: #000000;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+footer .apps input[type="button"]:hover{
+  opacity: 1;
+}
+footer .apps .input-box textarea{
+  height: 54px;
+  max-height: 170px;
+  max-width: 500px;
+  width: calc(100% + 55px);
+  background: #000000;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px;
+}
+footer .apps .input-box textarea::placeholder{
+  color: #AFAFB6;
+  font-size: 16px;
+}
+footer .apps {
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .apps .baixem img {
+  cursor: pointer;
+}
+footer .apps p{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  position: relative;
+}
+footer .apps p::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 35px;
+  background: #fff;
+}
+footer .apps img{
+  width: 180px
+}
+footer .bottom-details{
+  width: 100%;
+  background: #181818;
+}
+footer .bottom-details .bottom_text{
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .bottom-details .bottom_text span,
+footer .bottom-details .bottom_text a{
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+}
+@media (max-width: 829px) {
+  footer .content .link-boxes{
+    flex-wrap: wrap;
+  }
+  footer .copyright_text{
+    border-right: 1px solid #fff;
+    padding-right: 5px;
+  }
+  footer .policy_terms {
+    padding-left: 5px;
+  }
+}
+@media (max-width: 700px){
+  footer{
+    position: relative;
+  }
+  footer .content .top .media-icons a{
+    height: 35px;
+    width: 35px;
+    font-size: 14px;
+    line-height: 35px;
+  }
+  footer .apps {
+    display: flex;
+    justify-content: center;
+  }
+  footer .baixem {
+    padding-right: 25px;
+  }
+  footer .content .link-boxes .box{
+    width: calc(100% / 3 - 10px);
+  }
+  footer .copyright_text{
+    border-right: 1px solid #fff;
+    padding-right: 5px;
+  }
+  footer .policy_terms {
+    padding-left: 5px;
+  }
+  footer .bottom-details .bottom_text span,
+  footer .bottom-details .bottom_text a{
+    font-size: 12px;
+  }
+}
+@media (max-width: 470px){
+  footer .content .top{
+    flex-direction: column;
+  }
+  footer .content .link-boxes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  footer .content .link-boxes .box li a{
+    font-size: 13px;
+  }
+  footer .link-boxes .box .link_name::before {
+    content: '';
+    position: absolute;
+    left: 30px;
+    bottom: -2px;
+    height: 2px;
+    width: 35px;
+    background: #fff;
+}
+  footer .policy_terms {
+    padding-left: 5px;
+  }
+  footer .apps {
+    display: flex;
+    justify-content: center;
+  }
+  footer .content .link-boxes .box{
+    width: calc(100% / 2 - 10px);
+  }
+  footer .content .link-boxes .input-box{
+    width: 100%;
+  }
+}
