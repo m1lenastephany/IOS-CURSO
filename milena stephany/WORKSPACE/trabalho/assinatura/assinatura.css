@@ -16,6 +16,7 @@ body {
     display:flex;
     font-size: large;
     justify-content: center;
+    padding: 100px;
 }
 
 form {

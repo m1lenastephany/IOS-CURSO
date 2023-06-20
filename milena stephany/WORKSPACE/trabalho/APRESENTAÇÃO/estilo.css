@@ -11,6 +11,7 @@ body {
     position: relative;
     text-align: center;
     font-size: 60px;
+    padding: 50px;
 }
 
 section {
@@ -22,7 +23,7 @@ section {
 
 .dispositivos {
     background: #fff;
-    padding: 10px;
+    padding: 40px;
     font-size: 20px;
     text-align: center;
 }
@@ -50,7 +51,7 @@ article img {
 
 .tab {
     width: 20%;
-    padding: 8px;
+    padding: 30px;
     box-sizing: border-box;
     text-align: relative;
 
@@ -66,9 +67,9 @@ article img {
 }
 
 .price-box .plano {
-    background-color: #003274;
+    background-color: #464748;
     color: #eee5e5;
-    font-size: 35px;
+    font-size: 40px;
     border-radius: 20px;
 }
 
@@ -110,12 +111,14 @@ li.menor {
     display: flex;
     align-items: center;
     font-size: 30px;
-    background-color: rgb(255, 255, 255);
     padding: 10px;
     text-align: center;
+    color: #eee5e5;
+    background-color: #23252B;
 }
 
 .campeonato>img {
+   
     width: 60%;
     height: 80%;
 }
@@ -123,13 +126,13 @@ li.menor {
 .assinatura {
     display: flex;
     gap: 100px;
-    padding: 50px;
+    padding: 100px;
 }
 
 .botton {
     display: flex;
     gap: 100px;
-    background-color: #003274;
+    background-color: #23252B;
     border: none;
     color: #fff;
     padding: 10px 15px;
@@ -140,7 +143,7 @@ li.menor {
 }
 
 .btn {
-    background-color: #003274;
+    background-color: #464748;
     border: none;
     color: #fff;
     padding: 10px 15px;
@@ -150,8 +153,7 @@ li.menor {
     border-radius: 10px;
 }
 
-
-@media(max-width:768px) {
+@media (max-width: 829px) {
     .col {
         width: 100%;
     }

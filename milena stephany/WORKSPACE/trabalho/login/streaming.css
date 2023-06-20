@@ -1,0 +1,62 @@
+body {
+  background-color: #141414;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  overflow: scroll;
+  overflow: hidden;
+  scroll-snap-type:proximity;
+  /* visual styling */
+  display: grid;
+  width: 100%;
+  grid-auto-flow: column;
+  gap: 10px;
+  padding-left: 20px;
+}
+
+.movie {
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+  
+}
+
+.movie img {
+  width: 100%;
+  height: auto;
+  scroll-snap-align: start;
+
+  /* visual styling */
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  background: red;
+  border-radius: 20px;
+}
+
+.movie-title {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+
+.app-icon {}
