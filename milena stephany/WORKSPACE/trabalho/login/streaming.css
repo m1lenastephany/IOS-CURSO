@@ -17,6 +17,17 @@ body {
 }
 
 .content {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.movie {
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+  
+}
+.content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -31,14 +42,6 @@ body {
   gap: 10px;
   padding-left: 20px;
 }
-
-.movie {
-  width: 200px;
-  margin: 20px;
-  text-align: center;
-  
-}
-
 .movie img {
   width: 100%;
   height: auto;
