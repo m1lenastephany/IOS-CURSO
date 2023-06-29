@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+
+  .videos{
+    display: flex;
+    gap: 100px;
+  }
+  #videoPlayer {
+    display: flex;
+    gap: 100px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  #videoList {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .slick-slider {
+    margin: 0;
+    padding: 0;
+  }  
+  
+  li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    color: blue;
+  }
