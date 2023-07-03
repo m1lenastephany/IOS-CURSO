@@ -36,7 +36,9 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
-// Chamar a função showSlides automaticamente a cada 5 segundos
+// Chamar a função showSlides automaticamente a cada 1 segundos
 setInterval(function () {
   plusSlides(1);
-}, 5000);
+}, 1000);
+
+/* Icon feather */
