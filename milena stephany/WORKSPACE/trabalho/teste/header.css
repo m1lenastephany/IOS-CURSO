@@ -16,7 +16,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #070707;
+    background-color: #000000;
     /* color of the scroll thumb */
     border-radius: 20px;
     /* roundness of the scroll thumb */
@@ -46,7 +46,7 @@ a {
 }
 
 .header-main {
-    background: #0F0F0F;
+    background: #000000;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -64,7 +64,7 @@ a {
 .header .logo a {
     font-size: 30px;
     text-transform: capitalize;
-    color: #ff6201;
+    color: #e91e63;
     font-weight: 600;
 }
 
@@ -275,7 +275,7 @@ input[type="date"] {
         height: 100%;
         top: 0;
         overflow-y: auto;
-        background-color: #222222;
+        background-color: #000000;
         z-index: 1000;
         padding: 15px 0;
         transition: all 0.5s ease;
@@ -300,11 +300,11 @@ input[type="date"] {
     .header .menu>.menu-item>a {
         color: #ffffff;
         padding: 12px 15px;
-        border-bottom: 1px solid #000000;
+        border-bottom: 1px solid #333333;
     }
 
     .header .menu>.menu-item:first-child>a {
-        border-top: 1px solid #000000;
+        border-top: 1px solid #333333;
     }
 
     .header .menu>.menu-item>a .plus:before,
@@ -335,7 +335,7 @@ input[type="date"] {
     .header .menu>.menu-item>.sub-menu>.menu-item>a {
         padding: 12px 45px;
         color: #ffffff;
-        border-bottom: 1px solid #060606;
+        border-bottom: 1px solid #000000;
     }
 
     .header .close-nav-menu,

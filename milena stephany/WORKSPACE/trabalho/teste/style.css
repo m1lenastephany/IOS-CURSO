@@ -67,17 +67,15 @@ body {
     display: flex;
     gap: 100px;
     padding: 50px;
-
-  
   }
-  img {
+
+  .videos img {
     display: flex;
-    gap: 100px;
-    width: 50px;
-    height: 10
-    0p;
+    width: 17em;
+    height: 10em;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 10px;
+    padding: 10px;
   }
   
   
