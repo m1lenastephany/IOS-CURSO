@@ -61,7 +61,13 @@ body {
 }
 .next {
   right: 10px;
-}  
+}
+
+.videoPlayer {
+  display: flex;
+  align-items: center;
+}
+
 
   .videos{
     display: flex;
@@ -77,6 +83,7 @@ body {
     margin-top: 10px;
     padding: 10px;
   }
+  
   
   
  
